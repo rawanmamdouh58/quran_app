@@ -7,8 +7,7 @@ class HomeView extends StatelessWidget {
   HomeView({Key? key});
 
   final List<String> pageRoutes = [
-    'morning_azkar',
-    'evening_azkar',
+    'hesn_almoslem',
   ];
 
   @override
@@ -16,12 +15,12 @@ class HomeView extends StatelessWidget {
     // List of topics
     List<String> topics = [
       'حصن المسلم',
-      ' ',
+
       // Add more topics as needed
     ];
 
     return Scaffold(
-      backgroundColor: Color(0xff6D4E41),
+      // backgroundColor: Color(0xff267000),
       body: Stack(
         children: [
           Opacity(
